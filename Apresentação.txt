@@ -1,0 +1,16 @@
+Padrão de automação:
+PageObjects/ Bdd / Gherkin / Cucumber 
+
+Rotas:
+src/test/java
+Runner   
+Core
+Pages
+Steps
+Util
+Feature
+
+target
+report-html
+screenshot
+

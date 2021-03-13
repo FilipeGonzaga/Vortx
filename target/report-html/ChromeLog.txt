@@ -1,0 +1,392 @@
+[1615406551.922][INFO]: Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 
+[1615406551.922][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1615406552.374][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND InitSession {
+   "capabilities": {
+      "desiredCapabilities": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      },
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1615406552.376][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1615406552.376][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1615406552.379][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\dimi_\AppData\Local\Temp\scoped_dir7804_414113392" data:,
+[1615406553.062][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1615406553.096][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "89.0.4389.82",
+      "chrome": {
+         "chromedriverVersion": "89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294})",
+         "userDataDir": "C:\\Users\\dimi_\\AppData\\Local\\Temp\\scoped_dir7804_414113392"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:60045"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "5f6207474b89f77fdca07823accc916c"
+}
+[1615406553.134][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND Navigate {
+   "url": "https://vortx.com.br"
+}
+[1615406553.134][INFO]: Waiting for pending navigations...
+[1615406553.137][INFO]: Done waiting for pending navigations. Status: ok
+[1615406554.273][INFO]: Waiting for pending navigations...
+[1615406555.653][INFO]: Done waiting for pending navigations. Status: ok
+[1615406555.653][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE Navigate
+[1615406555.664][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND FindElements {
+   "using": "css selector",
+   "value": "#investidor"
+}
+[1615406555.664][INFO]: Waiting for pending navigations...
+[1615406555.665][INFO]: Done waiting for pending navigations. Status: ok
+[1615406555.672][INFO]: Waiting for pending navigations...
+[1615406555.673][INFO]: Done waiting for pending navigations. Status: ok
+[1615406555.673][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "8552ba93-ee3a-4bc7-91db-2537907fec09"
+} ]
+[1615406555.678][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND Screenshot {
+
+}
+[1615406555.678][INFO]: Waiting for pending navigations...
+[1615406555.679][INFO]: Done waiting for pending navigations. Status: ok
+[1615406556.273][INFO]: Waiting for pending navigations...
+[1615406556.274][INFO]: Done waiting for pending navigations. Status: ok
+[1615406556.274][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABQ8AAANLCAYAAADvoGvvAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XdcU/f++PFXEggjEPZQEBwgLhQUARUFFa27jjpbt23vt7u1w9+11lpr665tbXtttdfbYbV1W6t1a9U6ERUVVEQRZMgyhBVI8vsDicQwFUXr5/l4eG/5nJNzP..."
+[1615406556.331][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#investidor"
+}
+[1615406556.331][INFO]: Waiting for pending navigations...
+[1615406556.332][INFO]: Done waiting for pending navigations. Status: ok
+[1615406556.339][INFO]: Waiting for pending navigations...
+[1615406556.340][INFO]: Done waiting for pending navigations. Status: ok
+[1615406556.340][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "8552ba93-ee3a-4bc7-91db-2537907fec09"
+}
+[1615406556.363][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND ClickElement {
+   "id": "8552ba93-ee3a-4bc7-91db-2537907fec09"
+}
+[1615406556.363][INFO]: Waiting for pending navigations...
+[1615406556.364][INFO]: Done waiting for pending navigations. Status: ok
+[1615406556.393][INFO]: Waiting for pending navigations...
+[1615406556.394][INFO]: Done waiting for pending navigations. Status: ok
+[1615406556.394][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE ClickElement
+[1615406556.398][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div//h2[contains(text(),'Fundos de Investimento')]"
+}
+[1615406556.398][INFO]: Waiting for pending navigations...
+[1615406556.425][INFO]: Done waiting for pending navigations. Status: ok
+[1615406556.436][INFO]: Waiting for pending navigations...
+[1615406556.437][INFO]: Done waiting for pending navigations. Status: ok
+[1615406556.438][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "9b788cb1-0325-445f-839b-5fb1e0864757"
+} ]
+[1615406556.439][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND Screenshot {
+
+}
+[1615406556.439][INFO]: Waiting for pending navigations...
+[1615406556.440][INFO]: Done waiting for pending navigations. Status: ok
+[1615406556.773][INFO]: Waiting for pending navigations...
+[1615406556.773][INFO]: Done waiting for pending navigations. Status: ok
+[1615406556.773][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABQ8AAANLCAYAAADvoGvvAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xd809X6wPFPRvcknVDoomWPFrpktUzZCCi4UJbrqldAvfJjXC6CCgKCuK6IqKBcEWWKIHsphUJp2YVCS+mmizZdaZP8/ggJDUkXFAp63q8X99pvTs73fL8Np..."
+[1615406556.799][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div//h2[contains(text(),'Fundos de Investimento')]"
+}
+[1615406556.799][INFO]: Waiting for pending navigations...
+[1615406556.800][INFO]: Done waiting for pending navigations. Status: ok
+[1615406556.807][INFO]: Waiting for pending navigations...
+[1615406556.808][INFO]: Done waiting for pending navigations. Status: ok
+[1615406556.808][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9b788cb1-0325-445f-839b-5fb1e0864757"
+}
+[1615406556.815][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND ClickElement {
+   "id": "9b788cb1-0325-445f-839b-5fb1e0864757"
+}
+[1615406556.815][INFO]: Waiting for pending navigations...
+[1615406556.815][INFO]: Done waiting for pending navigations. Status: ok
+[1615406556.852][INFO]: Waiting for pending navigations...
+[1615406557.157][INFO]: Done waiting for pending navigations. Status: ok
+[1615406557.157][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE ClickElement
+[1615406557.161][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a//div[contains(text(),'FII - XP LOG FUNDO DE INVESTIMENTO IMOBILIARIO  ')]"
+}
+[1615406557.161][INFO]: Waiting for pending navigations...
+[1615406557.172][INFO]: Done waiting for pending navigations. Status: ok
+[1615406557.180][INFO]: Waiting for pending navigations...
+[1615406557.181][INFO]: Done waiting for pending navigations. Status: ok
+[1615406557.181][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE FindElements [  ]
+[1615406557.711][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a//div[contains(text(),'FII - XP LOG FUNDO DE INVESTIMENTO IMOBILIARIO  ')]"
+}
+[1615406557.714][INFO]: Waiting for pending navigations...
+[1615406557.715][INFO]: Done waiting for pending navigations. Status: ok
+[1615406557.719][INFO]: Waiting for pending navigations...
+[1615406557.719][INFO]: Done waiting for pending navigations. Status: ok
+[1615406557.719][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "565e6213-5c74-4657-9771-a8626d24c360"
+} ]
+[1615406557.721][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND Screenshot {
+
+}
+[1615406557.721][INFO]: Waiting for pending navigations...
+[1615406557.721][INFO]: Done waiting for pending navigations. Status: ok
+[1615406557.996][INFO]: Waiting for pending navigations...
+[1615406557.997][INFO]: Done waiting for pending navigations. Status: ok
+[1615406557.997][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABQ8AAANLCAYAAADvoGvvAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xl8jNf+wPHPLJksk0z2PRIhEbuEIIgkCLXXUtRSe+ve6q7b7/aqKlqKVhWtFtetXq3aqdrXovY1lpAIkV02k32Zmd8fIyPTyYaQas/79eq95jxnnuc8s2Xm+..."
+[1615406558.021][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a//div[contains(text(),'FII - XP LOG FUNDO DE INVESTIMENTO IMOBILIARIO  ')]"
+}
+[1615406558.021][INFO]: Waiting for pending navigations...
+[1615406558.022][INFO]: Done waiting for pending navigations. Status: ok
+[1615406558.029][INFO]: Waiting for pending navigations...
+[1615406558.029][INFO]: Done waiting for pending navigations. Status: ok
+[1615406558.029][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "565e6213-5c74-4657-9771-a8626d24c360"
+}
+[1615406558.036][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND ClickElement {
+   "id": "565e6213-5c74-4657-9771-a8626d24c360"
+}
+[1615406558.036][INFO]: Waiting for pending navigations...
+[1615406558.037][INFO]: Done waiting for pending navigations. Status: ok
+[1615406558.067][INFO]: Waiting for pending navigations...
+[1615406558.318][INFO]: Done waiting for pending navigations. Status: ok
+[1615406558.318][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE ClickElement
+[1615406558.320][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//*[@id=\"__next\"]/div/section[1]/section/section[2]/div"
+}
+[1615406558.320][INFO]: Waiting for pending navigations...
+[1615406558.332][INFO]: Done waiting for pending navigations. Status: ok
+[1615406558.346][INFO]: Waiting for pending navigations...
+[1615406558.356][INFO]: Done waiting for pending navigations. Status: ok
+[1615406558.356][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE FindElements [  ]
+[1615406558.859][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//*[@id=\"__next\"]/div/section[1]/section/section[2]/div"
+}
+[1615406558.862][INFO]: Waiting for pending navigations...
+[1615406558.863][INFO]: Done waiting for pending navigations. Status: ok
+[1615406558.867][INFO]: Waiting for pending navigations...
+[1615406558.867][INFO]: Done waiting for pending navigations. Status: ok
+[1615406558.867][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "83532320-bd18-4b75-b5be-db2fd10cba35"
+} ]
+[1615406558.869][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND Screenshot {
+
+}
+[1615406558.869][INFO]: Waiting for pending navigations...
+[1615406558.869][INFO]: Done waiting for pending navigations. Status: ok
+[1615406559.141][INFO]: Waiting for pending navigations...
+[1615406559.141][INFO]: Done waiting for pending navigations. Status: ok
+[1615406559.142][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABQ8AAANLCAYAAADvoGvvAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xl8jNf+wPHPLJksk0z2PRIhEbuEIIgkCLXXUtRSe+ve6q7b7/aqKlqKVhWtFtetXq3aqdrXovY1lpAIkV02k32Zmd8fIyPTyYaQas/79eq95jxnnuc8s2Xm+..."
+[1615406559.166][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"__next\"]/div/section[1]/section/section[2]/div"
+}
+[1615406559.166][INFO]: Waiting for pending navigations...
+[1615406559.167][INFO]: Done waiting for pending navigations. Status: ok
+[1615406559.174][INFO]: Waiting for pending navigations...
+[1615406559.174][INFO]: Done waiting for pending navigations. Status: ok
+[1615406559.175][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "83532320-bd18-4b75-b5be-db2fd10cba35"
+}
+[1615406559.176][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND GetElementText {
+   "id": "83532320-bd18-4b75-b5be-db2fd10cba35"
+}
+[1615406559.176][INFO]: Waiting for pending navigations...
+[1615406559.177][INFO]: Done waiting for pending navigations. Status: ok
+[1615406559.194][INFO]: Waiting for pending navigations...
+[1615406559.196][INFO]: Done waiting for pending navigations. Status: ok
+[1615406559.196][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE GetElementText "Gestor\nXP VISTA ASSET MANAGEMENT LTDA.\nAdministrador\nVORTX DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS LTDA\nCustodiante\nVORTX DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS LTDA\nAuditor\nERNST & ..."
+[1615406559.212][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND FindElements {
+   "using": "css selector",
+   "value": "#\\32 "
+}
+[1615406559.212][INFO]: Waiting for pending navigations...
+[1615406559.214][INFO]: Done waiting for pending navigations. Status: ok
+[1615406559.221][INFO]: Waiting for pending navigations...
+[1615406559.221][INFO]: Done waiting for pending navigations. Status: ok
+[1615406559.222][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f5b9b64b-7d0a-4c0b-a3d9-b794d29affe5"
+} ]
+[1615406559.228][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#\\32 "
+}
+[1615406559.228][INFO]: Waiting for pending navigations...
+[1615406559.229][INFO]: Done waiting for pending navigations. Status: ok
+[1615406559.235][INFO]: Waiting for pending navigations...
+[1615406559.236][INFO]: Done waiting for pending navigations. Status: ok
+[1615406559.236][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f5b9b64b-7d0a-4c0b-a3d9-b794d29affe5"
+}
+[1615406559.244][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND ClickElement {
+   "id": "f5b9b64b-7d0a-4c0b-a3d9-b794d29affe5"
+}
+[1615406559.244][INFO]: Waiting for pending navigations...
+[1615406559.245][INFO]: Done waiting for pending navigations. Status: ok
+[1615406559.285][INFO]: Waiting for pending navigations...
+[1615406559.295][INFO]: Done waiting for pending navigations. Status: ok
+[1615406559.295][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE ClickElement
+[1615406559.298][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//*[@id=\"Demonstração Financeira\"]/p"
+}
+[1615406559.298][INFO]: Waiting for pending navigations...
+[1615406559.299][INFO]: Done waiting for pending navigations. Status: ok
+[1615406559.312][INFO]: Waiting for pending navigations...
+[1615406559.312][INFO]: Done waiting for pending navigations. Status: ok
+[1615406559.312][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "db355bb2-8879-4fb7-a853-38642d27fd56"
+} ]
+[1615406559.314][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"Demonstração Financeira\"]/p"
+}
+[1615406559.314][INFO]: Waiting for pending navigations...
+[1615406559.315][INFO]: Done waiting for pending navigations. Status: ok
+[1615406559.321][INFO]: Waiting for pending navigations...
+[1615406559.322][INFO]: Done waiting for pending navigations. Status: ok
+[1615406559.322][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "db355bb2-8879-4fb7-a853-38642d27fd56"
+}
+[1615406559.325][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND ClickElement {
+   "id": "db355bb2-8879-4fb7-a853-38642d27fd56"
+}
+[1615406559.325][INFO]: Waiting for pending navigations...
+[1615406559.326][INFO]: Done waiting for pending navigations. Status: ok
+[1615406559.351][INFO]: Waiting for pending navigations...
+[1615406559.353][INFO]: Done waiting for pending navigations. Status: ok
+[1615406559.353][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE ClickElement
+[1615406559.355][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND Screenshot {
+
+}
+[1615406559.355][INFO]: Waiting for pending navigations...
+[1615406559.356][INFO]: Done waiting for pending navigations. Status: ok
+[1615406559.640][INFO]: Waiting for pending navigations...
+[1615406559.641][INFO]: Done waiting for pending navigations. Status: ok
+[1615406559.641][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABQ8AAANLCAYAAADvoGvvAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xl8jNf+wPHPLJksk0z2PRIhEbuEIIgkCLXXUtRSe+ve6q7b7/aqKlqKVhWtFtetXq3aqdrXovY1lpAIkV02k32Zmd8fIyPTyYaQas/79eq95jxnnuc8s2Xm+..."
+[1615406559.650][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"doc-Demonstração Financeira\"]/a[2]/p"
+}
+[1615406559.650][INFO]: Waiting for pending navigations...
+[1615406559.650][INFO]: Done waiting for pending navigations. Status: ok
+[1615406559.658][INFO]: Waiting for pending navigations...
+[1615406559.658][INFO]: Done waiting for pending navigations. Status: ok
+[1615406559.658][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "3d19953e-d460-4806-bb76-64b5e97785cc"
+}
+[1615406559.665][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND ClickElement {
+   "id": "3d19953e-d460-4806-bb76-64b5e97785cc"
+}
+[1615406559.665][INFO]: Waiting for pending navigations...
+[1615406559.666][INFO]: Done waiting for pending navigations. Status: ok
+[1615406559.707][INFO]: Waiting for pending navigations...
+[1615406559.710][INFO]: Done waiting for pending navigations. Status: ok
+[1615406559.710][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE ClickElement
+[1615406564.727][INFO]: [5f6207474b89f77fdca07823accc916c] COMMAND Quit {
+
+}
+[1615406564.758][INFO]: [5f6207474b89f77fdca07823accc916c] RESPONSE Quit
